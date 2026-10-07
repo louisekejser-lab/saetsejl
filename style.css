@@ -12,7 +12,7 @@
   --line:#e3ded3;
   --radius:14px;
   --max:1120px;
-  --serif:"Fraunces", Georgia, "Times New Roman", serif;
+  --serif:"Newsreader", Georgia, "Times New Roman", serif;
   --sans:"Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 *{box-sizing:border-box}
@@ -49,7 +49,6 @@ a{color:var(--navy-2)}
 .hero .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center}
 .portrait{position:relative;aspect-ratio:4/5;border-radius:var(--radius);overflow:hidden;background:linear-gradient(160deg,var(--sea),var(--navy))}
 .portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 28%}
-.portrait .ph{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-family:var(--serif);font-size:72px;opacity:.9}
 .eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:600;color:var(--sand-2);margin:0 0 14px}
 h1,h2,h3{font-family:var(--serif);color:var(--navy);line-height:1.15;margin:0 0 .5em;font-weight:600}
 h1{font-size:clamp(36px,5vw,58px)}
